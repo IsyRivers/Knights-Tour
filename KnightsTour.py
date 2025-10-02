@@ -28,7 +28,6 @@ class KnightsTour:
         self.__showBoard(board)
         self.__writeBoardToFile(board, row, col, finish)
         input()        
-
     
     def __createBoard(self):
         return self.__clearBoard()
